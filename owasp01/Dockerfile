@@ -1,4 +1,4 @@
-FROM node:12
+FROM node:14
 RUN apt update
 RUN apt upgrade -y
 WORKDIR /usr/src/app
